@@ -1,150 +1,143 @@
-/******************************TAG SELECTORS********************************/
 body {
-  background: #FFFFFF;
+  font-family: "Montserrat";
+
 }
 
-h1 {
+.title-image {
+  background-color: gray;
+  margin: 2%;
+
+}
+.top-heading {
+  margin: 5%;
+}
+/* Education Section */
+.container-complementary-education {
+  font-family: "Montserrat";
+  color: black;
+  font-size: 1rem;
+}
+.education-institution {
+  color: black;
+  font-size: 1.5rem;
+
+}
+.feature-box {
+  padding: 3% 5%;
+}
+.education-title {
   color: #FFFFFF;
-  font-size: 26px;
-}
-hr {
-  color: #FFFFFF;
-  padding: 1px;
-  margin: 20px;
+  font-size: 1.7rem;
+  background-color: #01A9DB;
+  border-bottom: 2px solid #025C7A;
+  border-left: 20px solid #025C7A;
+  width: 380px;
 
 }
-
-/******************************CLASS SELECTORS******************************/
-.left-side {
-  height: 30%;
-  width: 49%;
-  font-size: 18px;
+.education-text {
+  color: black;
   text-align: justify;
-  margin: 10px;
-  right: 49%;
-  padding: 10px;
-  position: absolute;
-  top: 255px;
+  font-size: 1rem;
 
 }
-.hight-side {
-
-  width: 49%;
-  position: absolute;
-  left: 50.5%;
+.abaut-me-title {
   background-color: #01A9DB;
-}
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin: 2px;
 
-.long-title {
+}
+.right-container {
+  background-color: #01A9DB;
+
+}
+/* Accomplishments Section */
+.accomplishments-title {
+  color: #fff;
+  font-size: 2rem;
+}
+/* Work Experiense section */
+.work-experince-title{
   color: #FFFFFF;
-  font-family: "Arial";
+  font-size: 1.7rem;
   background-color: #01A9DB;
   border-bottom: 2px solid #025C7A;
   border-left: 20px solid #025C7A;
-  padding-left: 20px;
-  width: 430px;
-  high: 25px;
-}
-
-.titles {
-  color: #FFFFFF;
-  background-color: #01A9DB;
-  border-bottom: 2px solid #025C7A;
-  border-left: 20px solid #025C7A;
-  padding-left: 20px;
   width: 300px;
-  high: 25px;
 }
-.contact-me {
-  color: #FFFFFF;
-  font-size: 24px;
-  margin-left: 40px;
+/* Carrosel Section */
+.experience-image {
+  width: 15%;
+ border-radius: 100%;
+ margin: 20px;
 }
-.hight-side-font {
-  color: #FFFFFF;
-  margin: 30px;
-  font-size: 18px;
-  border-left: 10px;
+.social-icon {
+    margin: 25px 15px;
 }
-
-.address-icon {
-  background-color: #FFFFFF;
-  border: none;
-  color: white;
-  text-align: center;
-  border-radius: 50%;
-}
-
-.phone-icon {
-  background-color: #FFFFFF;
-  border: none;
-  color: white;
-  text-align: center;
-  border-radius: 50%;
-}
-.email-icon {
-  background-color: #FFFFFF;
-  border: none;
-  color: white;
-  text-align: center;
-  border-radius: 20%;
-
-}
-.twitter-icon {
-  background-color: #FFFFFF;
-  border: none;
-  color: white;
-  text-align: center;
-  border-radius: 20%;
-
-}
-.linkedin-icon {
-  background-color: #FFFFFF;
-  border: none;
-  color: white;
-  text-align: center;
-  border-radius: 20%;
-
-}
-.github-icon {
-  background-color: #FFFFFF;
-  border: none;
-  color: white;
-  text-align: center;
-  border-radius: 20%;
-
-}
-
-
-
-/********************************ID SELECTORS******************************/
-#heading {
+/*Social icon sections */
+.social-icon:hover {
   color: blue;
 }
 
-#top {
-  background-color: #A4A4A4;
-  position: relative;
-  width: 100%%;
-  height: 5%;
-  margin: 0;
+.nav-link {
+  color: #fff;
+  font-size: 2rem;
+}
+.heading-social-icon{
+  color: #fff;
+  font-size: 2rem;
+  margin: 25px;
+}
+.heading-social-icon:hover{
+  color: black;
+  
 }
 
-#center {
+#footer{
+    background-color: black;
+    padding: 2% 2%;
+    text-align: center;
+}
+#title {
+  background-color: gray;
+  color: white;
+}
+#right-container, p {
+  color: white;
+  text-align: justify;
+  font-size: 1rem;
+}
+/* Work Section */
+#work-experience-container, h4 {
+  color: black;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+#carousel-experience{
+  background-color: gray;
+  font-family: "Montserrat";
+  font-size: 2rem;
   text-align: center;
-  color: #FFFFFF;
-  font-size: 30px;
+  color: white;
+}
+#copyright {
+  text-align: center;
+  color: #fff;
 
 }
-#container-name {
-  color: #FFFFFF;
-  font-size: 45px;
-  text-align: left;
+#education-professional-section {
+  padding: 0% 1%;
   position: relative;
-  left: 60%;
- border-top-width:45px;
-
-
-
 
 }
+
+@media (max-width: 800px){
+  .accomplishments-title, .abaut-me-title {
+      text-aligin: center;
+      font-size: 1.5rem;
+  
+  }
+  }
+ 
